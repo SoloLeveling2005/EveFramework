@@ -10,12 +10,11 @@ try {
 
     // Создаем экземпляр и запускаем
     $app = new App();
-    $app->listen('console');
+    $app->listen('web server');
 
 } catch (Exception $e) {
     print_r($e);
 }
-
 
 
 
